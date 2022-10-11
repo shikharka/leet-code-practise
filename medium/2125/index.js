@@ -13,8 +13,7 @@
 //     }
 //     return noOfLaserInBank;
 //   }, 0);
-};
-
+// };
 
 var numberOfBeams = function (bank) {
   return bank
