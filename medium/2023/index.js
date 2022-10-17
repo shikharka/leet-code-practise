@@ -10,9 +10,6 @@ var numOfPairs = function (nums, target) {
     if (target.startsWith(num)) {
       otherPart = target.slice(num.length);
     }
-    // else if (target.endsWith(num)) {
-    //   otherPart = target.slice(0, target.length - num.length);
-    // }
     let numsCopy = new Array(...nums);
     numsCopy.splice(index, 1);
 
